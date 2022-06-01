@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.game-board {
+  border-bottom: 15px solid green;
+  height: 500px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(#87CEEB, #E0F6FF);
+}
+
+.pokeball {
+  position: absolute;
+  bottom: 0;
+  width: 40px;
+  right: -80px;
+  animation: pokeball-animation 2s infinite linear;
+}
+
+.pokeballon {
+  display: none;
+}
+
+.pokeball2 {
+  display: none;
+}
+
+.pokeball2on {
+  position: absolute;
+  left: 80px;
+  width: 20px;
+  bottom: 215px;
+  animation: pokeball2-animation 0.5s linear;
+}
+
+.pikachu {
+  width: 130px;
+  position: absolute;
+  bottom: 0;
+  /* border: 1px solid red; */
+}
+
+.jump {
+  animation: pikachu-jump 500ms ease-out;
+}
+
+.dash {
+  animation: pikachu-dash 500ms ease-out;
+}
+
+.clouds {
+  position: absolute;
+  width: 550px;
+  animation: clouds-animation 20s infinite linear;
+}
+
+.hoho {
+  position: absolute;
+  width: 80px;
+  bottom: 350px;
+  animation: hoho-animation 25s infinite linear;
+}
+
+.ballom {
+  position: absolute;
+  width: 280px;
+  bottom: 200px;
+  animation: ballom-animation 10s infinite linear;
+}
+
+/* .seta {
+  position: absolute;
+  width: 200px;
+  bottom: 100px;
+  right: 0;
+} */
+
+.ketchup {
+  display: none;
+}
+
+.ketchupon {
+  position: absolute;
+  bottom: -10px;
+  width: 100px;
+  right: -80px;
+  animation: pokeball-animation 5s linear infinite;
+}
+
+.winner {
+  display: none;
+}
+
+.winneron {
+  position: relative;
+  width: 650px;
+}
+
+@keyframes pokeball-animation {
+
+  from {
+    right: -80px;
+  }
+
+  to {
+    right: 100%;
+  }
+}
+
+@keyframes pokeball2-animation {
+
+  0% {
+    bottom: 200px;
+  }
+
+  100% {
+    bottom: 0;
+  }
+}
+
+@keyframes pikachu-jump {
+
+  0% {
+    bottom: 0;
+  }
+
+  40% {
+    bottom: 140px;
+  }
+
+  50% {
+    bottom: 140px;
+  }
+
+  60% {
+    bottom: 140px;
+  }
+
+  100% {
+    bottom: 0;
+  }
+}
+
+@keyframes pikachu-dash {
+
+  0% {
+    left: 0;
+  }
+
+  40% {
+    left: 180px;
+  }
+
+  50% {
+    left: 180px;
+  }
+
+  60% {
+    left: 180px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes clouds-animation {
+
+  from {
+    right: -550px;
+  }
+
+  to {
+    right: 100%;
+  }
+}
+
+@keyframes hoho-animation {
+
+  from {
+    left: -140px;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes ballom-animation {
+
+  from {
+    right: -180px;
+  }
+
+  to {
+    right: 100%;
+  }
+}
