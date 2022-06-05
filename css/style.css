@@ -42,7 +42,6 @@
   width: 130px;
   position: absolute;
   bottom: 0;
-  /* border: 1px solid red; */
 }
 
 .jump {
@@ -73,13 +72,6 @@
   animation: ballom-animation 10s infinite linear;
 }
 
-/* .seta {
-  position: absolute;
-  width: 200px;
-  bottom: 100px;
-  right: 0;
-} */
-
 .ketchup {
   display: none;
 }
@@ -88,8 +80,8 @@
   position: absolute;
   bottom: -10px;
   width: 100px;
-  right: -80px;
-  animation: pokeball-animation 5s linear infinite;
+  right: -100px;
+  animation: pokeball-animation 5s linear;
 }
 
 .winner {
