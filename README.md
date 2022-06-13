@@ -17,3 +17,5 @@ Foi usado Javascript, HTML e CSS
 
 ### - Ao chegar no ketchup o jogo é finalizado
 <img src="https://user-images.githubusercontent.com/87145566/172067751-5ed2e038-2672-46a3-bc96-75ca1f189f6c.gif" height="250px" />
+
+Caso queira conferir, acesse: https://iigorfelipe.github.io/pikachu/
